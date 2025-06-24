@@ -2,12 +2,15 @@
 const express = require("express");
 const cors = require("cors");
 
+const contactRouter = require("./app/routes/contact.route");
+
 // Khoi tao ung dung, mot the hien cua express
 const app = express();
 
 // Dinh nghia cac middleware
 app.use(cors());
 app.use(express.json());
+app.use("/api/contacts", contactRouter);
 
 // Dinh nghia cac route
 app.get("/", (req, res) => {
