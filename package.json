@@ -1,24 +1,27 @@
 {
-  "name": "contactbook-backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Trang Ngoc Duy Thanh B2110099",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.29.0",
-    "eslint": "^9.29.0",
-    "eslint-config-prettier": "^10.1.5",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^16.2.0",
-    "prettier": "^3.6.0",
-    "typescript-eslint": "^8.35.0"
-  }
+    "name": "contactbook-backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "Trang Ngoc Duy Thanh B2110099",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "require": "^0.4.4"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.29.0",
+        "eslint": "^9.29.0",
+        "eslint-config-prettier": "^10.1.5",
+        "eslint-plugin-react": "^7.37.5",
+        "globals": "^16.2.0",
+        "nodemon": "^3.1.10",
+        "prettier": "^3.6.0",
+        "typescript-eslint": "^8.35.0"
+    }
 }
